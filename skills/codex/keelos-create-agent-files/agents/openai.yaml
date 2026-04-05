@@ -1,0 +1,4 @@
+interface:
+  display_name: "KeelOS Agent Files"
+  short_description: "Generate complete KeelOS agent workspace files"
+  default_prompt: "Use $keelos-create-agent-files to create a complete KeelOS agent workspace pack from this role brief."

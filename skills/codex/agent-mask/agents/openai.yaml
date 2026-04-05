@@ -1,0 +1,4 @@
+interface:
+  display_name: "Agent Mask"
+  short_description: "Assume a live KeelOS agent role with memory persistence"
+  default_prompt: "Use $agent-mask and assume the role of this named KeelOS agent from its live runtime workspace, loading recent memory and persisting session updates."
