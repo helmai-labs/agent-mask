@@ -4,6 +4,12 @@
 
 Agent-Mask is a skill pack that lets you carry your AI agent's persistent memory, identity, and traits across any tool or workspace.
 
+## Why Agent-Mask?
+
+LLM tools store your agent's memory in opaque temp files — proprietary JSONL blobs, vendor-specific databases, formats only one tool can read. Auto-compaction silently rewrites your context mid-session. Session files get pruned on schedules you don't control. Your agent's entire history exists at the mercy of a cleanup process you can't even find.
+
+Agent-Mask puts you in control. Every session transcript, every daily memory file, every long-term fact your agent learns is a plain markdown file in a folder on your machine. Human-readable, version-controllable, portable across any tool. No one else gets to decide what your agent remembers.
+
 ## Skills
 
 | Skill | Description |

@@ -286,6 +286,13 @@ A bad agent-mask run:
 - skips source attribution
 - stores raw secrets
 
+## Auto-Compaction Warning
+Long sessions may trigger auto-compact, where the LLM compresses earlier context. Agent-mask saves session memory perfectly up until that point, but may not record new memory after auto-compact.
+
+If your agent knows its name but isn't as sharp after compacting, just re-run hydrate. You can recover any unsaved memory with `/shutdown` no matter how many times auto-compact fired.
+
+"Stay hydrated" : D
+
 ## Pairing Note
 This skill pairs well with:
 - `$keelos-create-agent-files` when the agent does not exist yet
